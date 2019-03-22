@@ -1,29 +1,27 @@
-# OpenCart-Alphabank
-Плагин <a href="https://pay.alfabank.ru/ecommerce/" target="_blank">платежного шлюза "Альфа-Банка"</a> для CMS OpenCart.
-Используется для интеграции с Альфа-Банком и приемом платежей при помощи банковской карты. Подробнее узнавайте у специалистов "Альфа-Банка".
+ Opencart-alphabank
 
-Разрабатывался на версии OpenCart CMS (v.2.0.3.1)
+Plugin payment gateway "Alfa-Bank" for CMS OpenCart. Used to integrate with Alfa-Bank and receive payments using a bank card. Learn more from the experts of Alfa-Bank.
 
-----------------------------------------
-### Подключение API от Альфа-Банка
-#### Настройки OpenCart CMS
+Developed on the version of OpenCart CMS (v.2.0.3.1)
+API connection from Alfa-Bank
+OpenCart CMS Settings
 
-1. Загрузите модуль платежного шлюза "Альфа-Банка" с <a href="https://github.com/InterWaveRussia/OpenCart-Alphabank/">GitHub</a>
-2. Загрузите файлы в папку с OpenCart CMS.
-3. Войдите в панель управленияSign in to your OpenCart admin.
-4. Кликните на **Модули** и выберите **Оплата**.
-5. В строке **Альфабанк** в поле **Действие** выберите иконку карандаша (**Редактировать**).
-6. Укажите ваш **Логин API** полученный от Альфа-Банка. (Различен для тестового и полного режима)
-7. Укажите ваш **Пароль API** полученный от Альфа-Банка. (Различен для тестового и полного режима)
-8. Выберите **Нет** в поле **Тестовый режим?** если вы хотите отключить режим тестирования и включить все возможности для приема платежей. (Не забудьте изменить **Логин** и **Пароль API** для НЕ тестового режима)
-10. Выберите нужный вам **Статус заказа**, который будет установлен после проведения платежа для клиента.
-11. Выберите **Включен** в поле **Статус** для подключения способа оплаты при оформлении заказа.
-12. Сохраните ваши изменения.
+    Download the Alfa-Bank payment gateway module from GitHub
+    Upload files to the folder with OpenCart CMS.
+    Log in to the Control Panel in to your OpenCart admin.
+    Click on Modules and select Billing .
+    In the Alfabank row, in the Action field, select the pencil icon ( Edit ).
+    Enter your API API received from Alfa-Bank. (Different for test and full mode)
+    Enter your API Password received from Alfa-Bank. (Different for test and full mode)
+    Select No in the Test mode? if you want to disable the test mode and enable all features for receiving payments. (Do not forget to change the Login and Password API for NOT test mode)
+    Select the Order Status you need , which will be set after making a payment for the client.
+    Select Enabled in the Status field to connect the payment method at checkout.
+    Save your changes. 
 
-#### Официальная поддержка плагина сотрудниками альфа-банка не предоставляется
-----------------------------------------
-# Лицензия
-Данный модуль разработан <a href="https://cdbits.net/" target="_blank">командой CodeBits</a> и распространяется по лицензии OpenSource (MIT)
+Official support for the plugin by Alpha Bank employees is not available.
+License
 
-# Поддержка
-Модуль не поддерживается начиная с 2018 года. Его развитие прекращено.
+This module was developed by the CodeBits team and is distributed under the OpenSource (MIT) license.
+Support
+
+The module is not supported since 2018. Its development is discontinued. 
